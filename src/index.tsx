@@ -14,7 +14,7 @@ export interface DownloadFileProps {
 
 const DownLoadFile:React.FC<DownloadFileProps> = props =>{
     const {url,headerParams,children} = props;
-    const {method,credentials,...rest} = headerParams;
+    const {method,credentials="include",...rest} = headerParams;
     const reg = new RegExp('"', 'g');
     const handleClick = async () =>{
         const response = await fetch(url,{
@@ -27,7 +27,7 @@ const DownLoadFile:React.FC<DownloadFileProps> = props =>{
             responseType:'blob',
         });
         if(response){
-            response.blob().then(blob =>{
+            response.blob().then((blob: any) =>{
                 const tag = document.createElement('a');
                 const fileUrl = window.URL.createObjectURL(blob);
                 const file = response.headers

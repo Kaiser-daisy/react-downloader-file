@@ -6,11 +6,15 @@
     "sourceMap": true,
     "lib": ["es2015","dom"],
     "esModuleInterop": true,
+    "declaration": true,
+    "outDir": "./dist",
+    "strict": true
   },
   "files": [
-    "index.tsx"
+    "dist/**/*"
   ],
+  "include": ["src"],
   "exclude": [
-    "node_modules"
+    "node_modules","dist"
   ],
 }
