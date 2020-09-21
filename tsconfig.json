@@ -10,9 +10,7 @@
     "outDir": "./dist",
     "strict": true
   },
-  "files": [
-    "dist/**/*"
-  ],
+  "files": ["dist"],
   "include": ["src"],
   "exclude": [
     "node_modules","dist"
