@@ -10,7 +10,6 @@
     "outDir": "./dist",
     "strict": true
   },
-  "files": ["dist"],
   "include": ["src"],
   "exclude": [
     "node_modules","dist"

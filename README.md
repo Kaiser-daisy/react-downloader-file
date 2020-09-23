@@ -1,15 +1,15 @@
-# react-download-file
+# react-downloader-file
 react file stream download
 
 ## Install
 ```
-$ yarn add react-download-file
-$ npm install react-download-file
+$ yarn add react-downloader-file
+$ npm install react-downloader-file
 ```
 ## Example
 ```
 import React from 'react';
-import DownLoadFile,{DownloadFileProps} from 'react-download-file';
+import DownLoadFile,{DownloadFileProps} from 'react-downloader-file';
 
 const ExampleComponent:React.FC<DownloadFileProps> = props =>{
     return (
@@ -27,7 +27,7 @@ const ExampleComponent:React.FC<DownloadFileProps> = props =>{
 export default ExampleComponent;
 ```
 ## License
-*react-download-file* available under the MIT License
+*react-downloader-file* available under the MIT License
 
 ## Keywords
 
