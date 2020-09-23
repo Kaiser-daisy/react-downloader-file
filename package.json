@@ -1,5 +1,5 @@
 {
-  "name": "react-down-file",
+  "name": "react-download-file",
   "version": "1.0.0",
   "description": "React download file",
   "main": "./dist/index.js",
